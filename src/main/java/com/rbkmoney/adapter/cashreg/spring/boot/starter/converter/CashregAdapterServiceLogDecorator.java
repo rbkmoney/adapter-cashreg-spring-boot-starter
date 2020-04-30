@@ -100,4 +100,5 @@ public class CashregAdapterServiceLogDecorator implements CashregAdapterSrv.Ifac
         boolean unavailable = definition != null && WErrorType.UNAVAILABLE_RESULT.getKey().equals(definition.getErrorType().getKey());
         return undefined || unavailable;
     }
+
 }

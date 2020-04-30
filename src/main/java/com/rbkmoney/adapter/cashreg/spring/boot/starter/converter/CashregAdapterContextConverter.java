@@ -18,7 +18,7 @@ import org.springframework.stereotype.Component;
  *
  * <pre>
  * {@code
- *      AdapterContext adapterContext = cashregAdapterContextConverter.convert(cashRegContext)
+ *      AdapterContext adapterContext = cashregAdapterContextConverter.convert(cashregContext)
  * }
  * </pre>
  */
