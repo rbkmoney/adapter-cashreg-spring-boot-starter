@@ -30,7 +30,7 @@ import javax.validation.constraints.NotEmpty;
 @Validated
 @Configuration
 @ConfigurationProperties("adapter-cashreg")
-public class AdapterCashregProperties1 {
+public class AdapterCashregProperties {
 
     @NotEmpty
     private String url;

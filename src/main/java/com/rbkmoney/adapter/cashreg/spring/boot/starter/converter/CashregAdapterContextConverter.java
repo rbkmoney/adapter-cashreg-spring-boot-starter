@@ -24,7 +24,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @RequiredArgsConstructor
-public class CashregAdapterContextConverter1 implements Converter<CashregContext, AdapterState> {
+public class CashregAdapterContextConverter implements Converter<CashregContext, AdapterState> {
 
     private static final byte[] DEFAULT_STATE = new byte[0];
 
