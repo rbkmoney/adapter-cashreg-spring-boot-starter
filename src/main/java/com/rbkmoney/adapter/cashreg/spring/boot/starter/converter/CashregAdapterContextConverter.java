@@ -12,13 +12,13 @@ import org.springframework.stereotype.Component;
  * <pre>
  * {@code
  *      @Autowired
- *      CashRegAdapterContextConverter cashRegAdapterContextConverter;
+ *      CashregAdapterContextConverter cashregAdapterContextConverter;
  * }
  * </pre>
  *
  * <pre>
  * {@code
- *      AdapterContext adapterContext = cashRegAdapterContextConverter.convert(cashRegContext)
+ *      AdapterContext adapterContext = cashregAdapterContextConverter.convert(cashRegContext)
  * }
  * </pre>
  */

@@ -22,7 +22,7 @@ import javax.validation.constraints.NotEmpty;
  * <pre>
  * {@code
  *      @Autowired
- *      private final AdapterCashRegProperties adapterCashRegProperties;
+ *      private final AdapterCashregProperties adapterCashregProperties;
  * }
  * </pre>
  */

@@ -24,8 +24,8 @@ import org.apache.thrift.TException;
  *
  *      @Bean
  *      @Autowired
- *      public CashRegProviderSrv.Iface serverHandlerLogDecorator(CashRegProvider cashRegProvider) {
- *          return new CashRegAdapterServiceLogDecorator(cashRegProvider);
+ *      public CashregAdapterSrv.Iface serverHandlerLogDecorator(CashregAdapter cashregAdapter) {
+ *          return new CashregAdapterServiceLogDecorator(cashregAdapter);
  *      }
  *
  *  }
@@ -39,13 +39,13 @@ import org.apache.thrift.TException;
  *  @WebServlet("/adapter/cashreg/provider_name")
  *  public class AdapterServlet extends GenericServlet {
  *
- *     private final CashRegProviderSrv.Iface handler;
+ *     private final CashregAdapterSrv.Iface handler;
  *     private Servlet servlet;
  *
  *     @Override
  *     public void init(ServletConfig config) throws ServletException {
  *         super.init(config);
- *         servlet = new THServiceBuilder().build(CashRegProviderSrv.Iface.class, handler);
+ *         servlet = new THServiceBuilder().build(CashregAdapterSrv.Iface.class, handler);
  *     }
  *
  *     @Override
