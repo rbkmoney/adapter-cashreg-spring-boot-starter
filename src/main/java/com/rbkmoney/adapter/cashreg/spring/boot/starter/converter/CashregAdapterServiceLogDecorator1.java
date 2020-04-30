@@ -59,7 +59,7 @@ import org.apache.thrift.TException;
  */
 @Slf4j
 @RequiredArgsConstructor
-public class CashregAdapterServiceLogDecorator implements CashregAdapterSrv.Iface {
+public class CashregAdapterServiceLogDecorator1 implements CashregAdapterSrv.Iface {
 
     private final CashregAdapterSrv.Iface handler;
 
